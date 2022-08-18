@@ -8,6 +8,7 @@ from .__metadata__ import (
     __classifiers__,
     __license__,
 )
+from .daq_example_cpp import DAQ
 
 __all__ = [
     "__name__",
@@ -18,4 +19,5 @@ __all__ = [
     "__version__",
     "__classifiers__",
     "__license__",
+    "DAQ",
 ]
